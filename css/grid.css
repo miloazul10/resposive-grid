@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.row  {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bred {
+  border: solid;
+  border-color: red;
+}
+
+.bgreen{
+  border: solid;
+  border-color: green;
+}
+
+.bpurple{
+  border: solid;
+  border-color: purple;
+}
+
+.bblue{
+  border: solid;
+  border-color: blue;
+}
+
+.text-1 {
+  align-items: center;
+  justify-content: center;
+}
+
+.col-12{
+  width: 100%;
+}
+
+.col-8{
+  width: 66.7%;
+}
+
+.col-6{
+  width: 50%;
+}
+
+.col-4{
+  width: 33.3%;
+}
+
+.card {
+  border: solid 2p;
+  display: flex;
+}
+
+.img-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.col-12, .col-8, .col-6, .col-4 {
+  padding: 0.5rem;
+  display: flex;
+}
+
+.me-img {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mainPic{
+  width: 50%;
+  height: 50%;
+}
+
+@media (max-width:450px) {
+
+
+}
